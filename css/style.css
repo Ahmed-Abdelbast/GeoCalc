@@ -1,0 +1,16 @@
+.titlehome{
+    color: rgb(39, 181, 181);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+button{
+    color: rgb(39, 181, 181) !important;
+    border-color: rgb(39, 181, 181) !important;
+}
+button:hover{
+    color: black !important;
+    border-color: rgb(39, 181, 181) !important;
+    background-color:  rgb(39, 181, 181) !important;
+}
+

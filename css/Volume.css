@@ -1,0 +1,93 @@
+
+.parent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: #ffffff;
+    
+    padding: 2rem;
+    border-radius: 15px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    
+    margin-bottom: 1.5rem;
+}
+
+.shape-selector {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.shape-formula {
+    font-size: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    background: #f9f9f9;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+}
+
+.input-fields {
+    margin-bottom: 1.5rem;
+}
+
+.input-fields input {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    background: #3207f4;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #323232;
+}
+
+.result {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
